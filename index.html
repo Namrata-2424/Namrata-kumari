@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namrata Kumari</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5dbeb34aa0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpeg" class="logo" alt="NAMRATA">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="closemenu()"></i>
+            </nav>
+            <div class="header-text" onclick="openmenu()">
+                <p>Computer Science Engineering<br>(Specialization- AI & ML)</p>
+                <h1>Hi, I'm <span>Namrata</span><br>Kumari From India</h1>
+            </div>
+        </div>
+    </div>
+<!--.............about...............-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user.jpeg" alt="">
+            </div>
+            <div class="about-col-1">
+                <h1 class="sub-title">About Me</h1>
+                <p>Self-driven and knowledgeable computer science student with demonstrated experience in developing user friendly software applications, coding and testing features, and knowledge of multiple programming languages
+                    and software development tools, excellent problem-solving skills and ability to perform well within a teamteam as
+                    well as individually.
+                    </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Hackathons')">Hackathons</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Computer skills</span><br>Java, python, C, C++, Data Structures & Algorithm</li>
+                        <li><span>Web Development</span><br>Html, CSS, JavaScript</li>
+                        <li><span>Machine Learning</span><br>python</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Hackathons">
+                    <ul>
+                        <li><span>Smart India Hackathon - 2022</span><br>(Runners Up) I worked with a team of five other students on the Coal India
+                            limited project to build an AR/VR based software application to train and upskill the workers when dealing with
+                            high risk factors.
+                            </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>TENTH-BOARDS</span><br>Don Bosco Academy, Mccluskiegunj, Ranchi, Jharkhand, India.
+                            ICSE 10th(Percentage - 95.4%)
+                            </li>
+                        <li><span>TWELFTH-BOARDS</span><br>Sri Chaitanya Techno School, Vishakhapattanam, Andhrapradesh, India.
+                            AISSCE 12th(Percentage - 95.4%)</li>
+                        <li><span>B.TECH</span><br>C. V. Raman Global University, Bhubaneswar - 752054,Odisha
+                            BTech (CSE - AI and ML) - 8.69(upto second year)
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--.............services.............-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p> A passionate and versatile web developer with a knack for turning ideas into interactive, 
+                    user-friendly websites. As a dedicated problem solver and tech enthusiast, I thrive on crafting
+                     digital experiences that not only meet but exceed user expectations.
+                      My journey in web development has equipped me with a strong foundation in front-end technologies
+                       such as HTML, CSS, and JavaScript. I specialize in creating responsive and visually appealing 
+                       interfaces that engage users across various devices.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Development</h2>
+                <p> Innovation is at the heart of my approach. I actively seek opportunities to leverage emerging 
+                    technologies such as machine learning to enhance the functionality and engagement of the apps I develop.
+                    Collaboration is key to successful app development. I thrive in collaborative environments where ideas
+                     are shared, refined, and brought to life.  My journey in app development has equipped me with expertise
+                      in languages such as Java for Android. With a keen eye for detail and a commitment to creating seamless
+                       user experiences, I am ready to take on new challenges in the dynamic world of app development. 
+                       Let's connect and explore how we can transform your app ideas into reality!</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop"></i>
+                <h2>Machine Learning Enthusiast</h2>
+                <p>A passionate machine learning enthusiast driven by the endless possibilities that data and algorithms offer. 
+                    With a curiosity for unraveling patterns and solving complex problems, I embark on a journey to harness 
+                    the power of machine learning to make sense of the world.  I am eager to connect with like-minded individuals 
+                    and organizations that share a passion for leveraging machine learning to drive innovation. Let's collaborate, 
+                    learn, and push the boundaries of what's possible in the fascinating realm of machine learning!</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--................portfolio..............-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.jpg" alt="Work-1">
+                <div class="layer">
+                    <h3>Social Media Site</h3>
+                    <p>This connects you to the talented people from all around the world.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.jpg" alt="Work-2">
+                <div class="layer">
+                    <h3>Music Player</h3>
+                    <p>Listen to your favorite music on this new music player</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.jpg" alt="Work-3">
+                <div class="layer">
+                    <h3>E-commerce website</h3>
+                    <p>Discover a curated selection of the latest trends, from fashion to electronics on this site</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!--.....................Contact...............-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>namrata24kumari03@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8102259865</p>
+                <div class="social-icons">
+                    <a href="https://x.com/Namrata2403?t=2M8T7S9HXcX4i4d66Ku0BA&s=09"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.linkedin.com/in/namrata-2403sshan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com/nimmi3116?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxav4wzoDy_zgsVUzGa1ZwdjWyG6cClOucfWQxqlghT-a4iAz1u2UIry6GNDHR4BKWFMg/exec'
+    const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
